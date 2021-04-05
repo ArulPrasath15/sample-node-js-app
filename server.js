@@ -7,10 +7,6 @@ const port = process.env.PORT || 3000;
 
 const server=http.createServer((req,res)=>{
     console.log(req.url);
-    // var cont="<h1>Hi there , ur requested url is : "+req.url+"</h1>";
-    var num=l.random(55151,46654651);
-    console.log(num);
-  
     res.setHeader('content-type','text/html');
     let path='./Files/';
     switch(req.url)
