@@ -1,1 +1,1 @@
-# sample-node-js-app
+# sample-node-js
