@@ -3,7 +3,7 @@ const http=require('http')
 const fs=require('fs')
 const l=require('lodash');
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 80;
 
 const server=http.createServer((req,res)=>{
     console.log(req.url);
